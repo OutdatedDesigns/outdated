@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js loaded">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <title>OUTDATED© — clothing</title>
+
+  <meta name="description" content="outdated© — creative athlete — clothing " />
+  <meta name="keywords"
+    content="Graphic designer, designs, esports, gfx, gaming, Twitter header, YouTube banner, Twitch revamp, Twitch graphics, Twitch gfx, YouTube gfx, Twitter gfx, Fortnite gfx, gaming design, gaming gfx, outdated, outdated designs, outdateddnz, coverart, cover art, cover art designer, apparel, apparel designer" />
+  <meta name="author" content="outdated©" />
+
+
+  <meta property="og:description" content="outdated© — creative athlete — clothing">
+  <meta property="og:image" content="images/clothing.png">
+  <meta property="og:site_name" content="OUTDATED© — clothing">
+  <meta property="og:title" content="OUTDATED© — clothing">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="index.html">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="index.html">
+  <meta name="twitter:creator" content="@outdateddnz">
+  <meta name="twitter:title" content="OUTDATED©">
+  <meta name="twitter:description" content="outdated© — creative athlete — clothing ">
+  <meta name="twitter:image" content="images/card.png">
+
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="shortcut icon" href="images/icon/icon.png">
+  <link href="main.css" rel="stylesheet">
+</head>
+
+<body data-id="0">
+  <div class="cursor" id="cursor"></div>
+  <div class="dot" id="dot"></div>
+  <main>
+    <div class="frame">
+      <div class="brand-wrap">
+        <img src="images/icon/text-logo.svg" alt="OUTDATED©" class="brand">
+      </div>
+
+      <div class="frame__links">
+        <a href="index.html">_coverart</a>
+        <a href="clothing.html" class="active">_clothing</a>
+        <a href="about.html">_aboutme</a>
+      </div>
+
+      <div class="social" style="text-align: center;">
+        <ul style="font-size: 2.5rem; list-style-type: none; position: absolute;">
+          <li><a href="https://www.instagram.com/xxoutdated" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+          <li><a href="https://www.twiiter.com/xxoutdated" target="_blank">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li><a href="https://www.behance.com/xxoutdated" target="_blank">
+              <ion-icon name="logo-behance"></ion-icon>
+            </a></li>
+          <li><a href="mailto:hello@outdatedednz.co" target="_blank">
+              <ion-icon name="mail-open"></ion-icon>
+            </a></li>
+        </ul>
+      </div>
+
+      <div class="year">
+        <p>2021®</p>
+      </div>
+    </div>
+
+    <div class="outdated">
+      <div class="outdated__header">
+        <h1 class="outdated__title">
+          _clothing
+        </h1>
+      </div>
+
+      <div class="outdated__gallery">
+        <figure class="outdated__gallery__figure">
+          <img class="outdated__gallery__image" src="images/clothing/1.png">
+        </figure>
+
+        <figure class="outdated__gallery__figure">
+          <img class="outdated__gallery__image" src="images/clothing/2.png">
+        </figure>
+
+        <figure class="outdated__gallery__figure">
+          <img class="outdated__gallery__image" src="images/clothing/3.png">
+        </figure>
+
+        <figure class="outdated__gallery__figure">
+          <img class="outdated__gallery__image" src="images/clothing/4.png">
+        </figure>
+
+        <figure class="outdated__gallery__figure">
+          <img class="outdated__gallery__image" src="images/clothing/5.png">
+        </figure>
+
+        <figure class="outdated__gallery__figure">
+          <img class="outdated__gallery__image" src="images/clothing/6.png">
+        </figure>
+
+        <figure class="outdated__gallery__figure">
+          <img class="outdated__gallery__image" src="images/clothing/7.jpg">
+        </figure>
+
+        <figure class="outdated__gallery__figure">
+          <img class="outdated__gallery__image" src="images/clothing/8.jpg">
+        </figure>
+
+        <figure class="outdated__gallery__figure">
+          <img class="outdated__gallery__image" src="images/clothing/9.jpg">
+        </figure>
+
+        <figure class="outdated__gallery__figure">
+          <img class="outdated__gallery__image" src="images/clothing/10.jpg">
+        </figure>
+
+        <figure class="outdated__gallery__figure">
+          <img class="outdated__gallery__image" src="images/clothing/11.jpg">
+        </figure>
+
+        <figure class="outdated__gallery__figure">
+          <img class="outdated__gallery__image" src="images/clothing/7.jpg">
+        </figure>
+      </div>
+    </div>
+  </main>
+
+  <script type="text/javascript" src="app.js"></script>
+  <script>
+    document.getElementsByClassName("outdated__gallery__image").onclick = function (event) {
+        alert("Submit button is clicked!");
+        event.preventDefault();
+    }
+
+    let cursorout = document.getElementById('cursor');
+    let dot = document.getElementById('dot');
+    const onMouseMove = (e) => {
+        cursorout.style.left = e.pageX + 'px';
+        cursorout.style.top = e.pageY + 'px';
+        dot.style.left = e.pageX + 'px';
+        dot.style.top = e.pageY + 'px';
+    }
+    document.addEventListener('mousemove', onMouseMove);
+
+
+
+    $("a").mouseover(function () {
+        let dot = document.getElementById('dot');
+        let cursorout = document.getElementById('cursor');
+        $(dot).addClass('enlarge')
+        $(cursor).addClass('opacity')
+        cursorout.style.opacity = '50%';
+    });
+    $("a").mouseleave(function () {
+        let dot = document.getElementById('dot');
+        let cursorout = document.getElementById('cursor');
+        $(dot).removeClass('enlarge')
+        $(cursor).removeClass('opacity')
+        cursorout.style.opacity = '100%';
+    })
+</script>
+</body>
+
+</html>

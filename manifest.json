@@ -1,0 +1,35 @@
+{
+  "name": "outdated©",
+  "short_name": "outdated©",
+  "start_url": "/index",
+  "icons": [
+    {
+      "src": "/images/icons/icon57.png",
+      "sizes": "57x57",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icons/icon72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icons/icon76.png",
+      "sizes": "76x76",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icons/icon120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icons/icon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#e5ff00",
+  "background_color": "#0a0808",
+  "display": "fullscreen"
+}
